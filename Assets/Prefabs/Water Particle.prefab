@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4982978487062100200}
   m_Layer: 0
   m_Name: Water Particle
-  m_TagString: Untagged
+  m_TagString: Liquid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4982978487062100196}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.9466, y: 3.0166, z: -6}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.69164157}
+  m_LocalPosition: {x: -0.7442, y: 3.219, z: -6}
+  m_LocalScale: {x: 0.56620973, y: 0.56620973, z: 1.5664568}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -47,6 +47,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -95,9 +96,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.010264128, y: -0.028647184}
+  m_Offset: {x: 0.0075621433, y: -0.028647186}
   serializedVersion: 2
-  m_Radius: 0.20802942
+  m_Radius: 0.29449368
 --- !u!50 &4982978487062100200
 Rigidbody2D:
   serializedVersion: 4
@@ -110,10 +111,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.2
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0.4
+  m_GravityScale: 0.05
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1

@@ -16,7 +16,7 @@ public class Controller : MonoBehaviour
     void Update()
     {
         //Mouse
-        if (Input.GetMouseButton(0))   {
+        if (Input.GetMouseButtonDown(0))   {
             var tmpParticle = Instantiate(waterParticle);
             var mousePosScreenWorldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             tmpParticle.transform.position = new Vector3(mousePosScreenWorldPosition.x, mousePosScreenWorldPosition.y, -6);
